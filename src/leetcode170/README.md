@@ -11,3 +11,7 @@ boolean find(int value) Returns true if there exists any pair of numbers whose s
 
 
 * complexity analysis
+
+Add() : The time complexity is O(1)
+
+Find() : The time complexity is O(n)
