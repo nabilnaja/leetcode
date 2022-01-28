@@ -8,3 +8,8 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 * complexity analysis
+
+
+Time complexity: O(n).
+
+Space complexity: O(n).
