@@ -1,4 +1,4 @@
-#### 170. Two Sum III - Data structure design
+#### 1. Two Sum
 * Description
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
