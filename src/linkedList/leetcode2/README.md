@@ -6,3 +6,6 @@ You are given two non-empty linked lists representing two non-negative integers.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
 * complexity analysis
+
+Time complexity : O(max(m, n))
+Space complexity : O(max(m, n))
