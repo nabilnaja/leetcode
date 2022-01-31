@@ -5,3 +5,7 @@ Given an integer array nums and an integer k, return the k most frequent element
 
 * complexity analysis
 
+Time complexity: O(n log k).
+
+Space complexity: O(n + k).
+
