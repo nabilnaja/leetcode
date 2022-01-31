@@ -4,7 +4,10 @@ package heap.leetcode23;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+
 public class Solution {
+
+    // todo : Add a new solution using -> Quickselect (Hoare's selection algorithm)
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode head = new ListNode();
         PriorityQueue<ListNode> heap = new PriorityQueue<>(Comparator.comparingInt(node -> node.val));
