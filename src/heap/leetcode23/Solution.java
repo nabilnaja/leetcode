@@ -1,6 +1,8 @@
 package heap.leetcode23;
 
 
+import datastructure.ListNode;
+
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -23,22 +25,5 @@ public class Solution {
             tail = tail.next;
         }
         return head.next;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }

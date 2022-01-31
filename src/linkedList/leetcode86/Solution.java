@@ -1,5 +1,7 @@
 package linkedList.leetcode86;
 
+import datastructure.ListNode;
+
 public class Solution {
 
     public ListNode partition(ListNode head, int x) {
@@ -21,23 +23,5 @@ public class Solution {
         after.next = null;
         before.next = after_head.next;
         return before_head.next;
-    }
-
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
