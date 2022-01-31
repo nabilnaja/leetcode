@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode head = new ListNode();
-        PriorityQueue<ListNode> heap = new PriorityQueue<>(Comparator.comparing(node -> node.val));
+        PriorityQueue<ListNode> heap = new PriorityQueue<>(Comparator.comparingInt(node -> node.val));
         ListNode tail = head;
         for (ListNode node : lists) {
             if (node != null)
