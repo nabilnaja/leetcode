@@ -6,3 +6,7 @@ You are given an array of k linked-lists lists, each linked-list is sorted in as
 Merge all the linked-lists into one sorted linked-list and return it.
 
 * complexity analysis
+
+Time complexity: O(n log k) : k is the number of linked-list and n the number of all nodes.
+
+Space complexity: O(n).
