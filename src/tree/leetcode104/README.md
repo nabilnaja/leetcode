@@ -5,6 +5,6 @@ A binary tree's maximum depth is the number of nodes along the longest path from
 
 * complexity analysis
 
-Time complexity: .
+Time complexity: O(n). n is the number of nodes.
 
-Space complexity: .
+Space complexity: O(h). h is the height of the tree.
