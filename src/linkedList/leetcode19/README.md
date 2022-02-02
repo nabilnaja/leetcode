@@ -6,5 +6,5 @@ Given the head of a linked list, remove the nth node from the end of the list an
 
 * complexity analysis
 
-Time complexity : 
-Space complexity : 
+Time complexity :  O(n). n is the number of nodes.
+Space complexity :  O(1).
