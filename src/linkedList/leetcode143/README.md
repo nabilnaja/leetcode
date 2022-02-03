@@ -11,5 +11,5 @@ You may not modify the values in the list's nodes. Only nodes themselves may be 
 
 * complexity analysis
 
-Time Time complexity is .
-SpaceSpace complexity is .
+Time Time complexity is O(n).
+SpaceSpace complexity is O(n).
