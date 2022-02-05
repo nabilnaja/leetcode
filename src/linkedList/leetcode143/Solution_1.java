@@ -4,7 +4,7 @@ import datastructure.ListNode;
 
 import java.util.Stack;
 
-public class Solution {
+public class Solution_1 {
 
     public void reorderList(ListNode head) {
         ListNode node = head;
