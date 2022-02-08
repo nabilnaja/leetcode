@@ -16,4 +16,10 @@ void addNum(int num) adds the integer num from the data stream to the data struc
 
 double findMedian() returns the median of all elements so far. Answers within 10-5 of the actual answer will be accepted.
 
+* complexity analysis
+
+addNum : O(log n).
+
+findMedian : O(1).
+
 Space complexity: O(n).
