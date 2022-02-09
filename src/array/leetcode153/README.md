@@ -15,6 +15,6 @@ You must write an algorithm that runs in O(log n) time.
 
 * complexity analysis
 
-Time complexity:.
+Time complexity: O(log n).
 
-Space complexity:.
+Space complexity: O(1).
