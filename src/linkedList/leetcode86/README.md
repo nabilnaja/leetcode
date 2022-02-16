@@ -5,7 +5,7 @@ Given the head of a linked list and a value x, partition it such that all nodes 
 
 You should preserve the original relative order of the nodes in each of the two partitions.
 
-* complexity analysis
+* Complexity analysis
 
 Time Time complexity is O(N).
 SpaceSpace complexity is O(1).

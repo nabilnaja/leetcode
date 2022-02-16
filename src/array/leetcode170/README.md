@@ -10,7 +10,7 @@ void add(int number) Adds number to the data structure.
 boolean find(int value) Returns true if there exists any pair of numbers whose sum is equal to value, otherwise, it returns false.
 
 
-* complexity analysis
+* Complexity analysis
 
 Add() : The time complexity is O(1)
 
