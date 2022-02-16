@@ -10,8 +10,8 @@ Given the array nums after the possible rotation and an integer target, return t
 
 You must write an algorithm with O(log n) runtime complexity.
 
-* complexity analysis
+* Complexity analysis
 
-Time complexity:.
+Time complexity: O(log n).
 
-Space complexity:.
+Space complexity: O(1).
