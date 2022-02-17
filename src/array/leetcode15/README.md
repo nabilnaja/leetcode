@@ -7,6 +7,6 @@ Notice that the solution set must not contain duplicate triplets.
 
 * Complexity analysis
 
-Time complexity:.
+Time complexity: O(n^2).
 
-Space complexity:.
+Space complexity: Arrays.sort() use quick sort, the average space complexity is O(log n).
