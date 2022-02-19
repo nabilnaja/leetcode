@@ -12,6 +12,6 @@ Notice that you may not slant the container.
 
 * Complexity analysis
 
-Time complexity:.
+Time complexity: O(n).
 
-Space complexity:.
+Space complexity: O(1).
