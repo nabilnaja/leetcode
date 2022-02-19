@@ -10,6 +10,6 @@ Return true if there is a cycle in the linked list. Otherwise, return false.
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(1).
