@@ -10,6 +10,6 @@ Return the head of the merged linked list.
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n+m).
 
-Space complexity: .
+Space complexity: O(1).
