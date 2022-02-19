@@ -6,6 +6,6 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(1).
