@@ -12,6 +12,6 @@ Both the left and right subtrees must also be binary search trees.
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(h).
