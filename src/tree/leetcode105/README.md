@@ -6,6 +6,6 @@ Given two integer arrays preorder and inorder where preorder is the preorder tra
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(n).
