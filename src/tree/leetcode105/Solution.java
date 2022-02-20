@@ -14,7 +14,6 @@ public class Solution {
         index = 0;
         cacheIndex = 0;
         cache = new HashMap<>();
-        int index = 0;
         return buildTree(inorder, preorder, 0, inorder.length - 1);
 
     }
