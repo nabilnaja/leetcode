@@ -6,6 +6,6 @@ Given the root of a binary search tree, and an integer k, return the kth smalles
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(h + k). h is the height of the tree, we should find the first node first, then we try to find to k element.
 
-Space complexity: .
+Space complexity: O(h).
