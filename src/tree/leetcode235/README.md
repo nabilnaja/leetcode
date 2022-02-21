@@ -8,6 +8,6 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(h). h is the high of the tree.
 
-Space complexity: .
+Space complexity: O(1).
