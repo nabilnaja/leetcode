@@ -10,6 +10,6 @@ Given the root of a binary tree, return the maximum path sum of any non-empty pa
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(h).
