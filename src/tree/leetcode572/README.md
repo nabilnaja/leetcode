@@ -8,6 +8,6 @@ A subtree of a binary tree tree is a tree that consists of a node in tree and al
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n * m). m and n are the number of nodes in the given trees
 
-Space complexity: .
+Space complexity: O(n).
