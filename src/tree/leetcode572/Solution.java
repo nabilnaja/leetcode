@@ -3,6 +3,7 @@ package tree.leetcode572;
 import datastructure.TreeNode;
 
 public class Solution {
+    // todo give a better solution
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
         if (subRoot == null)
             return true;
