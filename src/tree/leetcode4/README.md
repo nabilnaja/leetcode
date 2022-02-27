@@ -8,6 +8,6 @@ The overall run time complexity should be O(log (m+n)).
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(min (n,m)).
 
-Space complexity: .
+Space complexity: O(0).
