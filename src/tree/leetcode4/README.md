@@ -10,7 +10,7 @@ The overall run time complexity should be O(log (m+n)).
 
 Time complexity: O(min (n,m)).
 
-Space complexity: O(0).
+Space complexity: O(1).
 
 * url
 
