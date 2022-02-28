@@ -8,6 +8,6 @@ A subarray is a contiguous part of an array.
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n log n).
 
-Space complexity: .
+Space complexity: O(log n).
