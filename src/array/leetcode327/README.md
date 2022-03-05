@@ -21,3 +21,15 @@ Output: 1
 Time complexity: O(n log n).
 
 Space complexity: O(n).
+
+* More infos
+
+This was a hard problem, I had trouble understanding how we can use merge sort to solve this problem. 
+Hopefully, I found 2 leetcode discussion explaining how they solved the problem and why this solution work. 
+
+Also, understanding how a prefix sum array works and how to use it to get different range sums is helpful. it's the first step before trying to solve the problem. 
+
+You can check this links for more details : 
+
+https://leetcode.com/problems/count-of-range-sum/discuss/1267104/C%2B%2B-SIMPLE-explanation-for-BEGINNERS-to-HARD-problems
+https://leetcode.com/problems/count-of-range-sum/discuss/1597810/JAVA-nlogn-based-on
