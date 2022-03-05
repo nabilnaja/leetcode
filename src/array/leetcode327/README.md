@@ -18,7 +18,6 @@ Output: 1
 
 * Complexity analysis
 
+Time complexity: O(n log n).
 
-Time complexity: .
-
-Space complexity: .
+Space complexity: O(n).
