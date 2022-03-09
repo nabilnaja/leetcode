@@ -9,3 +9,7 @@ The testcases will be generated such that the answer is unique.
 A substring is a contiguous sequence of characters within the string.
 
 * Complexity analysis
+
+Time complexity: O(m + n).
+
+Space complexity: O(m + n).
