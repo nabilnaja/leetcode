@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class Solution {
 
+    // todo optimize this solution
     public int lengthOfLongestSubstring(String s) {
         int max = 0;
         int start = 0;
