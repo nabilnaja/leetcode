@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Solution {
 
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring_1(String s) {
         int max = 0;
         int start = 0;
         int end = 0;
