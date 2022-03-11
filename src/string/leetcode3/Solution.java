@@ -1,10 +1,11 @@
 package string.leetcode3;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class Solution {
 
-    // todo optimize this solution
     public int lengthOfLongestSubstring(String s) {
         int max = 0;
         int start = 0;
@@ -25,6 +26,22 @@ public class Solution {
         }
         return max;
 
+    }
+
+    public int lengthOfLongestSubstring_2(String s) {
+        int max = 0;
+        int start = 0;
+
+        Map<Character, Integer> chars = new HashMap<>();
+        for(int end=0; end<s.length(); end++) {
+            char c = s.charAt(end);
+            if(chars.containsKey(c) && chars.get(c) >= start){
+                start = chars.get(c) + 1;
+            }
+            max = Math.max(max, end - start + 1 );
+            chars.put(c, end);
+        }
+        return max;
     }
 
 }
