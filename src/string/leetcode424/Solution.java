@@ -7,11 +7,11 @@ public class Solution {
     public int characterReplacement(String s, int k) {
         int[] count = new int[26];
         int start = 0;
-        int maxCount = 0;
+        int maxOccurencePerWindow = 0;
         int maxLength = 0;
         for (int end = 0; end < s.length(); end++) {
-            maxCount = Math.max(maxCount, ++count[s.charAt(end) - CHAR]);
-            while (end - start + 1 - maxCount > k) {
+            maxOccurencePerWindow = Math.max(maxOccurencePerWindow, ++count[s.charAt(end) - CHAR]);
+            while (end - start + 1 - maxOccurencePerWindow > k) {
                 count[s.charAt(start) - CHAR]--;
                 start++;
             }
