@@ -8,6 +8,6 @@ Return the length of the longest substring containing the same letter you can ge
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(1).
