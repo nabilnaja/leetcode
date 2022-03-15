@@ -8,6 +8,6 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n x k). n is the number of strings, k is the length of the longest string.
 
-Space complexity: .
+Space complexity: O(n x k).
