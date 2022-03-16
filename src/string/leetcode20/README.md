@@ -11,6 +11,6 @@ An input string is valid if:
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(n).
