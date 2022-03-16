@@ -11,7 +11,7 @@ public class Solution {
         this.pairs = Map.of(')', '(', '}', '{', ']', '[');
     }
 
-    public boolean isValid(String s) {
+    public boolean isValid1(String s) {
         Stack<Character> stack = new Stack<>();
         for (char c : s.toCharArray()) {
             if (pairs.containsKey(c)) {
@@ -22,6 +22,33 @@ public class Solution {
             }
         }
         return stack.isEmpty();
+    }
+
+    public boolean isValid2(String s) {
+        if(s.length() == 0)
+            return true;
+
+        Stack<Character> stack = new Stack<>();
+
+        for (char c : s.toCharArray()) {
+            if(c=='(' || c=='[' || c=='{'){
+                stack.push(c);
+            }
+            else if(!stack.empty() && c==')' && stack.peek()=='('){
+                stack.pop();
+            }
+            else if(!stack.empty() && c==']' && stack.peek()=='['){
+                stack.pop();
+            }
+            else if(!stack.empty() && c=='}' && stack.peek()=='{'){
+                stack.pop();
+            }
+            else {
+                return false;
+            }
+        }
+
+        return stack.empty();
     }
 
 }
