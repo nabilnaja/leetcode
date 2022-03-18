@@ -8,6 +8,6 @@ Given a string s, return true if it is a palindrome, or false otherwise.
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(1).
