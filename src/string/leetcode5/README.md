@@ -6,6 +6,6 @@ Given a string s, return the longest palindromic substring in s.
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n^2).
 
-Space complexity: .
+Space complexity: O(1).
