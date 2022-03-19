@@ -16,7 +16,7 @@ public class GraphNode {
         this.val = val;
         this.neighbors = new ArrayList<>();
     }
-    public GraphNode(int val, List<GraphNode> neighbors) {
+    public GraphNode(int val, ArrayList<GraphNode> neighbors) {
         this.val = val;
         this.neighbors = neighbors;
     }
