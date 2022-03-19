@@ -10,6 +10,6 @@ Each node in the graph contains a value (int) and a list (List[Node]) of its nei
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n + m).
 
-Space complexity: .
+Space complexity: O(n).
