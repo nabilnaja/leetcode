@@ -9,6 +9,14 @@ Return true if you can finish all courses. Otherwise, return false.
 
 * Complexity analysis
 
+    * Backtracking
+
+Time complexity: O(n + m^2).
+
+Space complexity: O(n + m^2).
+
+* DFS
+
 Time complexity: .
 
 Space complexity: .
