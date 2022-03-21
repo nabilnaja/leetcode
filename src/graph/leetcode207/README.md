@@ -17,6 +17,6 @@ Space complexity: O(n + m).
 
 * DFS
 
-Time complexity: .
+Time complexity: O(n + m).
 
-Space complexity: .
+Space complexity: O(n + m).
