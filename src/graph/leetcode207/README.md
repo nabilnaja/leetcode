@@ -13,7 +13,7 @@ Return true if you can finish all courses. Otherwise, return false.
 
 Time complexity: O(n + m^2).
 
-Space complexity: O(n + m^2).
+Space complexity: O(n + m).
 
 * DFS
 
