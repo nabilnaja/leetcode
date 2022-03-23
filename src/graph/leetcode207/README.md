@@ -20,3 +20,9 @@ Space complexity: O(n + m).
 Time complexity: O(n + m).
 
 Space complexity: O(n + m).
+
+######Topological sort
+
+Time complexity: O(n + m).
+
+Space complexity: O(n + m).
