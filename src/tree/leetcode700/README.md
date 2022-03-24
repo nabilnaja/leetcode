@@ -8,6 +8,6 @@ Find the node in the BST that the node's value equals val and return the subtree
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(h). h is the height of the tree. the average case would be h = log n, and the worst case n.
 
-Space complexity: .
+Space complexity:  O(h). h is the height of the tree. the average case would be h = log n, and the worst case n.
