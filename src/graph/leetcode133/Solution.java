@@ -34,13 +34,13 @@ public class Solution {
             return null;
         }
 
-        Queue<GraphNode> q = new LinkedList<>();
+        Stack<GraphNode> q = new Stack<>();
         Map<GraphNode, GraphNode> visited = new HashMap<>();
         q.add(node);
         visited.put(node, new GraphNode(node.val, new ArrayList<>()));
 
         while(!q.isEmpty()){
-            GraphNode n = q.poll();
+            GraphNode n = q.pop();
             for (GraphNode neighbor: n.neighbors) {
                 if (!visited.containsKey(neighbor)) {
                     visited.put(neighbor, new GraphNode(neighbor.val, new ArrayList<>()));
