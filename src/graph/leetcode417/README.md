@@ -12,6 +12,6 @@ Return a 2D list of grid coordinates result where result[i] = [ri, ci] denotes t
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(m * n).
 
-Space complexity: .
+Space complexity: O(m * n).
