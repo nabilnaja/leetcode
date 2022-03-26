@@ -48,7 +48,7 @@ public class SolutionBT {
 
         boolean ret = false;
         for (Integer nextCourse : courseDict.get(currCourse)) {
-            ret = this.isCyclic(nextCourse, courseDict, path);
+            ret = isCyclic(nextCourse, courseDict, path);
             if (ret)
                 break;
         }
