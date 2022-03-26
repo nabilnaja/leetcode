@@ -8,6 +8,6 @@ An island is surrounded by water and is formed by connecting adjacent lands hori
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O( m * n ). m is the number of rows and n is the number of columns.
 
-Space complexity: .
+Space complexity: O( m * n ).
