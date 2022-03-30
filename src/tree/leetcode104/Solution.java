@@ -1,17 +1,15 @@
 package tree.leetcode104;
 
-import java.util.HashMap;
-import java.util.Map;
+import datastructure.TreeNode;
 
 public class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> index = new HashMap<>(nums.length);
-        for (int i = 0; i < nums.length; i++){
-            if (index.containsKey(nums[i]))
-                return new int [] {index.get(nums[i]), i};
-            else
-                index.put(target - nums[i], i);
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        } else {
+            int left_height = maxDepth(root.left);
+            int right_height = maxDepth(root.right);
+            return java.lang.Math.max(left_height, right_height) + 1;
         }
-        return null;
     }
 }
