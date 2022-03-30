@@ -8,6 +8,6 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n).
 
-Space complexity: .
+Space complexity: O(n).
