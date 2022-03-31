@@ -8,8 +8,14 @@ Merge the two lists in a one sorted list. The list should be made by splicing to
 
 Return the head of the merged linked list.
 
-* Complexity analysis
+* Complexity analysis iterative
 
 Time complexity: O(n+m).
 
 Space complexity: O(1).
+
+* Complexity analysis recursion
+
+Time complexity: O(n+m).
+
+Space complexity: O(n+m).
