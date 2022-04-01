@@ -24,6 +24,7 @@ public class Solution {
         return head.next;
     }
 
+
     public ListNode mergeTwoListsRecursion(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
