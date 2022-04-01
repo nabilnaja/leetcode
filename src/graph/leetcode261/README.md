@@ -8,6 +8,6 @@ Return true if the edges of the given graph make up a valid tree, and false othe
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n + m).
 
-Space complexity: .
+Space complexity: O(n + m).
