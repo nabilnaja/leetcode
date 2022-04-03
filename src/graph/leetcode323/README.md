@@ -8,6 +8,6 @@ Return the number of connected components in the graph.
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity: O(n + m).
 
-Space complexity: .
+Space complexity: O(n + m).
