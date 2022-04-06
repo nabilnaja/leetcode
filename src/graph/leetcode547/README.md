@@ -10,6 +10,11 @@ You are given an n x n matrix isConnected where isConnected[i][j] = 1 if the ith
 
 Return the total number of provinces.
 
+* Complexity analysis DFS
+
+Time complexity: O(N^2).
+
+Space complexity: O(N).
 
 * Complexity analysis Union-find
 
