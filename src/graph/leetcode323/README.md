@@ -11,3 +11,9 @@ Return the number of connected components in the graph.
 Time complexity: O(n + m).
 
 Space complexity: O(n + m).
+
+* Complexity analysis union find
+
+Time complexity: O(m⋅α(n)). m is the number of vertices and n the number of edges
+
+Space complexity: O(n).
