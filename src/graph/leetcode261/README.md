@@ -17,3 +17,9 @@ Space complexity: O(n + m).
 Time complexity: O(n).
 
 Space complexity: O(n).
+
+* Complexity analysis union find
+
+Time complexity: O(N⋅α(N).
+
+Space complexity: O(n).
