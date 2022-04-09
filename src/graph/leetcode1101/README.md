@@ -8,14 +8,8 @@ Friendship is symmetric. That means if a is friends with b, then b is friends wi
 
 Return the earliest time for which every person became acquainted with every other person. If there is no such earliest time, return -1.
 
-* Complexity analysis DFS
-
-Time complexity: .
-
-Space complexity: .
-
 * Complexity analysis Union-find
 
-Time complexity: .
+Time complexity: O(n + m log m + mα(n)).
 
-Space complexity: .
+Space complexity: O(n + log m).
