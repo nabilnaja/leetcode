@@ -10,6 +10,6 @@ Return the lexicographically smallest string that s can be changed to after usin
 
 * Complexity analysis Union-find
 
-Time complexity: .
+Time complexity: O(n + m log m + (m + n ) * α(n)).
 
-Space complexity:.
+Space complexity: O(n + log m).
