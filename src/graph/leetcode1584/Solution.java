@@ -51,6 +51,44 @@ class Solution {
         return minCost;
     }
 
+    public int minCostConnectPointsPrim(int[][] points) {
+
+        PriorityQueue<int[]> heap = new PriorityQueue<>(Comparator.comparing((o -> o[2])));
+        int size = points.length;
+        boolean[] visited = new boolean[size];
+        int result = 0;
+        int count = size - 1;
+
+        int[] start = points[0];
+        for (int j = 1; j < size; j++) {
+            int distance = Math.abs(start[0] - points[j][0]) + Math.abs(start[1] - points[j][1]);
+            heap.add(new int[]{0, j, distance});
+        }
+        visited[0] = true;
+
+        while (!heap.isEmpty() && count > 0) {
+            int[] edge = heap.poll();
+            int point1 = edge[0];
+            int point2 = edge[1];
+            int cost = edge[2];
+            if (!visited[point2]) {
+                result += cost;
+                visited[point2] = true;
+                for (int j = 0; j < size; j++) {
+                    if (!visited[j]) {
+                        int distance = Math.abs(points[point2][0] - points[j][0]) +
+                                Math.abs(points[point2][1] - points[j][1]);
+                        heap.add(new int[]{point2, j, distance});
+                    }
+                }
+                count--;
+            }
+
+        }
+
+        return result;
+    }
+
     static class UnionFind{
         int[] rank;
         int[] root;
