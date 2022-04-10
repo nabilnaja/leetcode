@@ -61,7 +61,7 @@ class Solution {
                 }
                 else {
                     root[rootY] = rootX;
-                    rank[rootX] += rank[rootY];
+                    rank[rootX] ++;
                 }
             }
         }
