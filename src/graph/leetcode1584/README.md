@@ -13,3 +13,9 @@ Return the minimum cost to make all points connected. All points are connected i
 Time complexity: O(n^2  log(n^2)) -> O(n^2  log(n)) 
 
 Space complexity: O(n^2).
+
+* Complexity analysis Prim's Algorithm
+
+Time complexity: O(n^2  log(n^2)) -> O(n^2  log(n))
+
+Space complexity: O(n^2).
