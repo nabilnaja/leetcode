@@ -8,8 +8,8 @@ The cost of connecting two points [xi, yi] and [xj, yj] is the manhattan distanc
 
 Return the minimum cost to make all points connected. All points are connected if there is exactly one simple path between any two points.
 
-* Complexity analysis Union-find
+* Complexity analysis Kruskal's Algorithm
 
-Time complexity: .
+Time complexity: O(n^2  log(n^2)) -> O(n^2  log(n)) 
 
-Space complexity: .
+Space complexity: O(n^2).
