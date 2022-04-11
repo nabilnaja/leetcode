@@ -8,6 +8,6 @@ We will send a signal from a given node k. Return the time it takes for all the 
 
 * Complexity analysis
 
-Time complexity: .
+Time complexity:.
 
-Space complexity: .
+Space complexity:.
